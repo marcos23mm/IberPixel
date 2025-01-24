@@ -120,5 +120,17 @@ Posibles mejoras a largo plazo:
    Las mejoras que yo le hubiera hecho serian las siguientes:
 
    1. Añadir más filtros para la busqueda de los productos. Actualmente solo cuenta con ordenacion por precio en orden ascendente y descendente, aparte del filtrado por categorias. Y me hubiera gustado implementar mas filtros como rangos de       precio.
-   2. Una experiencia mas agradable al usuario. Con esto me refiero a la implemetacion de un modo claro y oscuro. Poder añadir mas de un idioma a la pagina. Un carrito de compra funcional al que poder añadir los productos. Vista de cada producto individual que cuento con un boton para poder añadir al carrito. Puntuacion del producto. Un logo para la pagina web que al hacer click en el te devolviera a la pagina principal. Un footer con contacto, informacion adicional y derechos de copyright. Aparte de más ideas.
-   3. Tambien en cuanto a la parte visual de la pagina me gustaria poderle haber dedicado mas tiempo ya que es algo que a titulo personal me gusta mas. Y viendo como ha quedado, como atractivo al usuario deja algo que desear. 
+   2. Una experiencia mas agradable al usuario. Con esto me refiero a la implemetacion de:
+      a)Un modo claro y oscuro.
+      b)Poder añadir mas de un idioma a la pagina.
+      c)Un carrito de compra funcional al que poder añadir los productos.
+      d)Vista de cada producto individual que cuento con un boton para poder añadir al carrito.
+      e)Puntuacion del producto.
+      f)Un logo para la pagina web que al hacer click en el te devolviera a la pagina principal.
+      g)Un footer con contacto, informacion adicional y derechos de copyright. Aparte de más ideas.
+      
+   4. Tambien en cuanto a la parte visual de la pagina me gustaria poderle haber dedicado mas tiempo ya que es algo que a titulo personal me gusta mas. Y viendo como ha quedado, como atractivo al usuario deja algo que desear.
+
+Decisiones tecnicas: 
+
+   
