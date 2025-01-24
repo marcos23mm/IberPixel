@@ -17,6 +17,8 @@ Ahora pasaremos a introducir los archivos que hay en el GitHub a nuestro proyect
 
 Aqui un ejemplo de como tienen que quedar los archivos introducidos en nuetra carpeta:
 
+ATENCION!! (Para una correcta visualizacion de la estructura, )
+
 Proyecto_IberPixel/
 ├── iberPixel_react/
 │   ├── node_modules/
