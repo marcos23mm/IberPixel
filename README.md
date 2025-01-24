@@ -98,3 +98,9 @@ El proyecto está organizado de la siguiente manera para mantener una clara sepa
    - App.jsx: Componente principal de la aplicación. Aquí se gestionan los datos globales, se implementa la lógica principal y se organizan los componentes.
   
    - main.jsx: Punto de entrada de la aplicación. Monta el componente App en el DOM.
+  
+5. iberPixel_react/
+
+   Esta contiene diferentes archivos que son creados cuando se hace el proyecto, pero hay uno que destaca y tendremos que cambiar que es:
+
+   - index.html: Archivo HTML principal donde se inyecta la aplicación React.
