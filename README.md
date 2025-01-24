@@ -55,3 +55,22 @@ Esto nos dara un link al cual podremos acceder para visualizar la pagina web.
 
 Explicación de la estructura del proyecto:
 
+El proyecto está organizado de la siguiente manera para mantener una clara separación de responsabilidades y facilitar el mantenimiento y escalabilidad del código:
+
+1. Carpeta src:
+
+   Esta contiene todo el código fuente de la aplicación.
+
+2. componentes/:
+
+   Esta carpeta contiene los componentes reutilizables de la aplicación. Cada componente representa una parte específica de la interfaz o funcionalidad.
+
+   - navbar.jsx: Gestiona la barra de navegación principal.
+
+   - sidebar.jsx: Contiene el menú lateral con opciones de filtrado.
+
+   - filterbar.jsx: Controla los filtros para ordenar y buscar productos.
+
+   - ProductList.jsx: Renderiza la lista de productos basada en los filtros y la categoría seleccionada.
+
+   - carrito-de-compras.png: Recurso gráfico utilizado en la interfaz.
