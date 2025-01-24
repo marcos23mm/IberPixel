@@ -28,11 +28,12 @@ const App = () => {
       .then((data) => {
         setProducts(data);
         setFilteredProducts(data);
-        setIsLoading(false); // Termina el estado de carga
+        //termina el estado de carga
+        setIsLoading(false); 
       })
       .catch((error) => {
-        setError(error.message); // Captura el mensaje de error
-        setIsLoading(false); // Finaliza la carga incluso con error
+        setError(error.message); // capturamos el error y cerramos el estado de carga
+        setIsLoading(false); 
       });
   }, []);
 

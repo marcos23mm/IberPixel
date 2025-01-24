@@ -1,4 +1,4 @@
-/* Sidebar */
+
 .sidebar {
     width: 220px;
     background-color: #f8f8f8;
@@ -13,58 +13,22 @@
 }
 
 .sidebar ul {
-    list-style: none; /* Quita los puntos de las listas */
+    list-style: none; 
     padding: 0;
 }
 
-/* Elementos de la lista */
+
 .sidebar li {
     padding: 10px 0;
     cursor: pointer;
-    font-weight: normal; /* Estilo normal para elementos no seleccionados */
-    transition: font-weight 0.3s ease; /* Transición suave */
+    font-weight: normal; /* estilo normal para los demas */
+    transition: font-weight 0.3s ease; 
 }
 
-/* Elemento seleccionado */
+
 .sidebar li.active {
-    font-weight: bold; /* Negrita para el elemento seleccionado */
+    font-weight: bold; /* bold para el elemento que esta activo */
 }
 
 
-/* Estilos generales para diseño responsivo */
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-        padding: 0 10px;
-    }
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-    }
-    .navbar a {
-        margin: 5px 0;
-    }
-    .product-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-    }
-    .sidebar {
-        display: none; /* Ocultar barra lateral en pantallas pequeñas */
-    }
-    .filter-bar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .filter-bar select {
-        margin-bottom: 10px;
-    }
-}
 
-@media (max-width: 480px) {
-    .product-grid {
-        grid-template-columns: 1fr; /* Mostrar productos en una columna */
-    }
-    .navbar a {
-        font-size: 12px;
-    }
-}

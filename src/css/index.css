@@ -1,4 +1,4 @@
-/* Reset básico */
+
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
@@ -13,61 +13,4 @@ body {
   font-family: Arial, sans-serif;
   background-color: #fff;
   color: #000;
-}
-
-/* Modo oscuro */
-body.dark-mode {
-  background-color: #121212;
-  color: #fff;
-}
-
-body.dark-mode .product-card {
-  background-color: #333;
-  border-color: #555;
-}
-
-body.dark-mode .filter-bar input,
-body.dark-mode .filter-bar select {
-  background-color: #333;
-  color: #fff;
-  border: 1px solid #555;
-}
-
-
-/* Estilos generales para diseño responsivo */
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-        padding: 0 10px;
-    }
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-    }
-    .navbar a {
-        margin: 5px 0;
-    }
-    .product-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-    }
-    .sidebar {
-        display: none; /* Ocultar barra lateral en pantallas pequeñas */
-    }
-    .filter-bar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .filter-bar select {
-        margin-bottom: 10px;
-    }
-}
-
-@media (max-width: 480px) {
-    .product-grid {
-        grid-template-columns: 1fr; /* Mostrar productos en una columna */
-    }
-    .navbar a {
-        font-size: 12px;
-    }
 }
