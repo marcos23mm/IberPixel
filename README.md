@@ -74,3 +74,27 @@ El proyecto está organizado de la siguiente manera para mantener una clara sepa
    - ProductList.jsx: Renderiza la lista de productos basada en los filtros y la categoría seleccionada.
 
    - carrito-de-compras.png: Recurso gráfico utilizado en la interfaz.
+  
+3. css/
+
+   Como el propio nombre de la carpeta indica, esta contiene los archivos CSS para dar estilo a cada componente. Cada archivo de estilo se asocia con un componente o funcionalidad específica:
+
+   - App.css: Estilos globales de la aplicación.
+  
+   - filterbar.css: Estilos relacionados con la barra de filtros.
+  
+   - index.css: Estilos básicos y generales para el proyecto.
+  
+   - navbar.css: Estilos para la barra de navegación.
+  
+   - ProductList.css: Estilos específicos para la lista de productos.
+  
+   - sidebar.css: Estilos para el menú lateral.
+  
+4. src/
+
+   Esta contiene los archivos principales del proyecto:
+
+   - App.jsx: Componente principal de la aplicación. Aquí se gestionan los datos globales, se implementa la lógica principal y se organizan los componentes.
+  
+   - main.jsx: Punto de entrada de la aplicación. Monta el componente App en el DOM.
