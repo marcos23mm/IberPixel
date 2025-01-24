@@ -1,4 +1,4 @@
-# IberPixel
+# IberPixel (Antes de comenzar leer linea 21)
 
 Paso 1:
 
@@ -18,7 +18,7 @@ Ahora pasaremos a introducir los archivos que hay en el GitHub a nuestro proyect
 
 Aqui un ejemplo de como tienen que quedar los archivos introducidos en nuetra carpeta:
 
-ATENCION!! (Para una correcta visualizacion de la estructura, seleccionar junto a la parte superior izquierda donde aparecen los siguientes elementos [Preview | Code | Blame], la palabra Code)
+ATENCION!! (Para una correcta visualizacion de la estructura y el codigo general, seleccionar junto a la parte superior izquierda donde aparecen los siguientes elementos [Preview | Code | Blame], la palabra Code)
 
 Proyecto_IberPixel/
 ├── iberPixel_react/
