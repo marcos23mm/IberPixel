@@ -1,0 +1,115 @@
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s;
+  position: relative; 
+  cursor: pointer; 
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card:hover::after {
+  content: "Pronto estará disponible"; 
+  position: absolute;
+  bottom: 10px; 
+  left: 50%; 
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8); 
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  white-space: nowrap; 
+}
+
+.product-image {
+  width: 100%; 
+  height: auto; 
+  object-fit: contain; 
+  max-height: 150px; 
+}
+
+
+.product-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.product-price {
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.product-category {
+  color: #555;
+  font-size: 0.8rem;
+}
+
+
+/* Estilos generales para diseño responsivo */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar a {
+        margin: 5px 0;
+    }
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .sidebar {
+        display: none; /* Ocultar barra lateral en pantallas pequeñas */
+    }
+    .filter-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .filter-bar select {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-grid {
+        grid-template-columns: 1fr; /* Mostrar productos en una columna */
+    }
+    .navbar a {
+        font-size: 12px;
+    }
+}
+
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin: 20px 0;
+}
+
+.error {
+  text-align: center;
+  font-size: 18px;
+  color: red;
+  margin: 20px 0;
+}
