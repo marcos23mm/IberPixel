@@ -111,3 +111,14 @@ El proyecto está organizado de la siguiente manera para mantener una clara sepa
    Esta contiene diferentes archivos que son creados cuando se hace el proyecto, pero hay uno que destaca y tendremos que cambiar que es:
 
    - index.html: Archivo HTML principal donde se inyecta la aplicación React.
+
+
+
+Posibles mejoras a largo plazo:
+
+   Debido al poco tiempo tenido para desarrollar esta pequeña web y a que actualmente estoy en el proceso de aprender y obtener nuevos conocimientos sobre React, la aplicacion web no ha quedado como a mi me hubiera gustado. 
+   Las mejoras que yo le hubiera hecho serian las siguientes:
+
+   1. Añadir más filtros para la busqueda de los productos. Actualmente solo cuenta con ordenacion por precio en orden ascendente y descendente, aparte del filtrado por categorias. Y me hubiera gustado implementar mas filtros como rangos de       precio.
+   2. Una experiencia mas agradable al usuario. Con esto me refiero a la implemetacion de un modo claro y oscuro. Poder añadir mas de un idioma a la pagina. Un carrito de compra funcional al que poder añadir los productos. Vista de cada producto individual que cuento con un boton para poder añadir al carrito. Puntuacion del producto. Un logo para la pagina web que al hacer click en el te devolviera a la pagina principal. Un footer con contacto, informacion adicional y derechos de copyright. Aparte de más ideas.
+   3. Tambien en cuanto a la parte visual de la pagina me gustaria poderle haber dedicado mas tiempo ya que es algo que a titulo personal me gusta mas. Y viendo como ha quedado, como atractivo al usuario deja algo que desear. 
