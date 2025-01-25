@@ -1,15 +1,21 @@
 # IberPixel 
 
-#Paso 1: Instrucciones de Instalación
+## 📋 Paso 1: Instrucciones de Instalación
 
-1. Creamos una carpeta en Visual Studio llamada "Proyecto_IberPixel"
-2. Abrimos una terminal dentro de esa carpeta
-3. Hacemos los siguientes comandos "npm create vite@latest"
-4. Una vez puesto este comando nos pedira que ingresemos el nombre del proyecto, en nuestro caso "iberPixel_react"
-5. Nos apareceran diferentes opciones de frameworks, pero nosotros elegiremos "React" y luego JavaScript
-6. A continuación nos apareceran las siguientes opciones a aseguir: 1- cd iberPixel_react 2- npm install 3- npm run dev (Para poder lanzar el proyecto)
-7. Cuando lanzemos nuestro proyecto nos aparecera un link el cual podremos acceder mediante el comando (Ctrl + Click en el link) y ver la pagina web
+1. Crea una carpeta en Visual Studio llamada **"Proyecto_IberPixel"**.
+2. Abre una terminal dentro de esa carpeta.
+3. Ejecuta el siguiente comando: `npm create vite@latest`.
+4. Introduce el nombre del proyecto: **"iberPixel_react"**.
+5. Selecciona:
+   - Framework: **React**
+   - Lenguaje: **JavaScript**
+6. Sigue los pasos:
+   - `cd iberPixel_react`
+   - `npm install`
+   - `npm run dev`
+7. Abre el enlace generado para visualizar la página web (Ctrl + Click en el enlace).
 
+---
 Paso 2:
 
 Ahora pasaremos a introducir los archivos que hay en el GitHub a nuestro proyecto
