@@ -86,63 +86,43 @@ Ejecuta nuevamente `npm run dev` (si nno lo has hecho antes) para generar el enl
 
 
 
-Explicación de la estructura del proyecto:
+## 📑 Explicación de la Estructura del Proyecto
 
-El proyecto está organizado de la siguiente manera para mantener una clara separación de responsabilidades y facilitar el mantenimiento y escalabilidad del código:
+El proyecto está diseñado para mantener una clara separación de responsabilidades y facilitar su mantenimiento:
 
-1. Carpeta src:
+### 1. **Carpeta `src`**
+Contiene el código fuente principal de la aplicación.
 
-   Esta contiene todo el código fuente de la aplicación.
+### 2. **`componentes/`**
+Almacena los componentes reutilizables:
+- **`navbar.jsx`**: Barra de navegación principal.
+- **`sidebar.jsx`**: Menú lateral con opciones de filtrado.
+- **`filterbar.jsx`**: Barra de filtros para ordenar y buscar productos.
+- **`ProductList.jsx`**: Lista de productos basada en los filtros.
+- **`footer.jsx`**: Footer con derechos de autor.
+- **`carrito-de-compras.png`**: Recurso gráfico.
 
-2. componentes/:
+### 3. **`css/`**
+Archivos de estilo organizados por componente:
+- `App.css`: Estilos globales.
+- `filterbar.css`: Barra de filtros.
+- `index.css`: Estilos básicos.
+- `navbar.css`: Barra de navegación.
+- `ProductList.css`: Lista de productos.
+- `sidebar.css`: Menú lateral.
+- `footer.css`: Footer.
 
-   Esta carpeta contiene los componentes reutilizables de la aplicación. Cada componente representa una parte específica de la interfaz o funcionalidad.
+### 4. **Archivos principales**
+- **`App.jsx`**: Componente principal para manejar la lógica y estados globales.
+- **`main.jsx`**: Punto de entrada que monta la aplicación.
 
-   - navbar.jsx: Gestiona la barra de navegación principal.
-
-   - sidebar.jsx: Contiene el menú lateral con opciones de filtrado.
-
-   - filterbar.jsx: Controla los filtros para ordenar y buscar productos.
-
-   - ProductList.jsx: Renderiza la lista de productos basada en los filtros y la categoría seleccionada.
-  
-   - footer.jsx: Creacion dek nuevo footer. Con los derechos de Copy Right.
-
-   - carrito-de-compras.png: Recurso gráfico utilizado en la interfaz.
-  
-3. css/
-
-   Como el propio nombre de la carpeta indica, esta contiene los archivos CSS para dar estilo a cada componente. Cada archivo de estilo se asocia con un componente o funcionalidad específica:
-
-   - App.css: Estilos globales de la aplicación.
-  
-   - filterbar.css: Estilos relacionados con la barra de filtros.
-  
-   - index.css: Estilos básicos y generales para el proyecto.
-  
-   - navbar.css: Estilos para la barra de navegación.
-  
-   - ProductList.css: Estilos específicos para la lista de productos.
-  
-   - sidebar.css: Estilos para el menú lateral.
-  
-   - footer.css: Estilos para el pequeño footer creado.
-  
-4. src/
-
-   Esta contiene los archivos principales del proyecto:
-
-   - App.jsx: Componente principal de la aplicación. Aquí se gestionan los datos globales, se implementa la lógica principal y se organizan los componentes.
-  
-   - main.jsx: Punto de entrada de la aplicación. Monta el componente App en el DOM.
-  
-5. iberPixel_react/
+### 5. **iberPixel_react/**
 
    Esta contiene diferentes archivos que son creados cuando se hace el proyecto, pero hay uno que destaca y tendremos que cambiar que es:
 
-   - index.html: Archivo HTML principal donde se inyecta la aplicación React.
-
-
+   - **`index.html`**: Este archivo tendra que ser sustituido por el que hay en el GitHub.
+     
+---
 
 
 Posibles mejoras a largo plazo:
