@@ -127,20 +127,20 @@ Archivos de estilo organizados por componente:
 
 ## Mejoras a Largo Plazo
 
-   Debido al poco tiempo tenido para desarrollar esta pequeña web y a que actualmente estoy en el proceso de aprender y obtener nuevos conocimientos sobre React, la aplicacion web no ha quedado como a mi me hubiera gustado. 
-   Las mejoras que yo le hubiera hecho serian las siguientes:
+   Debido al tiempo tenido para desarrollar esta pequeña web y a que actualmente estoy en el proceso de aprender y obtener nuevos conocimientos sobre React, la aplicación web no ha quedado como a mí me hubiera gustado.
+Las mejoras que yo le hubiera hecho serían las siguientes:
 
-   1. Añadir más filtros para la busqueda de los productos. Actualmente solo cuenta con ordenacion por precio en orden ascendente y descendente, aparte del filtrado por categorias. Y me hubiera gustado implementar mas filtros como rangos de       precio.
-   2. Una experiencia mas agradable al usuario. Con esto me refiero a la implemetacion de:
-      a)Un modo claro y oscuro.
-      b)Poder añadir mas de un idioma a la pagina.
-      c)Un carrito de compra funcional al que poder añadir los productos.
-      d)Vista de cada producto individual que cuento con un boton para poder añadir al carrito.
-      e)Puntuacion del producto.
-      f)Un logo para la pagina web que al hacer click en el te devolviera a la pagina principal.
-      g)Poner informacion adicional en el footer. Como elementos de contacto, sobre nosotros, etc. Aparte de más ideas.
+   1. Añadir más filtros para la búsqueda de los productos. Actualmente solo cuenta con ordenación por precio en orden ascendente y descendente, aparte del filtrado por categorías. Me hubiera gustado implementar más filtros como rangos de precio.
+   2. Una experiencia más agradable para el usuario. Con esto me refiero a la implementación de:
+      -Un modo claro y oscuro.
+      -Poder añadir más de un idioma a la página.
+      -Un carrito de compra funcional al que poder añadir los productos.
+      -Vista de cada producto individual que cuente con un botón para poder añadir al carrito.
+      -Puntuación del producto.
+      -Un logo para la página web que al hacer clic en él te devuelva a la página principal.
+      -Poner información adicional en el footer, como elementos de contacto, sobre nosotros, etc., aparte de más ideas.
       
-   4. Tambien en cuanto a la parte visual de la pagina me gustaria poderle haber dedicado mas tiempo ya que es algo que a titulo personal me gusta mas. Y viendo como ha quedado, como atractivo al usuario deja algo que desear.
+   3. También en cuanto a la parte visual de la página, me gustaría haberle dedicado más tiempo, ya que es algo que, a título personal, me gusta más. Y viendo cómo ha quedado, como atractivo al usuario hay que mejorar.
 
 
 ---
