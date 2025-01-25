@@ -84,9 +84,9 @@ Proyecto_IberPixel/
 
 Ejecuta nuevamente `npm run dev` (si nno lo has hecho antes) para generar el enlace de acceso a la página.
 
+---
 
-
-## 📑 Explicación de la Estructura del Proyecto
+## Explicación de la Estructura del Proyecto
 
 El proyecto está diseñado para mantener una clara separación de responsabilidades y facilitar su mantenimiento:
 
@@ -125,7 +125,7 @@ Archivos de estilo organizados por componente:
 ---
 
 
-Posibles mejoras a largo plazo:
+## Mejoras a Largo Plazo
 
    Debido al poco tiempo tenido para desarrollar esta pequeña web y a que actualmente estoy en el proceso de aprender y obtener nuevos conocimientos sobre React, la aplicacion web no ha quedado como a mi me hubiera gustado. 
    Las mejoras que yo le hubiera hecho serian las siguientes:
@@ -143,37 +143,39 @@ Posibles mejoras a largo plazo:
    4. Tambien en cuanto a la parte visual de la pagina me gustaria poderle haber dedicado mas tiempo ya que es algo que a titulo personal me gusta mas. Y viendo como ha quedado, como atractivo al usuario deja algo que desear.
 
 
+---
 
 
-
-Decisiones tecnicas: 
+## Decisiones Técnicas
 
 
 En cuanto a las decisiones tecnicas, podemos empezar por:
 
-1. Estructura del proyecto:
+1. **Estructura del proyecto**:
 
-   Decidí agrupar los componentes reutilizables en una carpeta componentes y sus estilos en css para mantener       una separación clara entre lógica y presentación.
+   -Decidí agrupar los componentes reutilizables en una carpeta componentes y sus estilos en css para mantener       una separación clara entre lógica y presentación.
 
-2. Eleccion de la Tecnologia:
+2. **Elección de tecnología**:
 
-   En mi caso decidi utilizar React-Vite debido a que hace muy poco comenze a utilizarlo y era una tecnologia muy llamativa debido al uso de JavaScript, tecnologia en la cual me gustaria especializarme. Aparte de CSS y HTML que son componentes esenciales para el desarrollo web. 
+   -En mi caso decidi utilizar React-Vite debido a que hace muy poco comenze a utilizarlo y era una tecnologia muy llamativa debido al uso de JavaScript, tecnologia en la cual me gustaria especializarme. Aparte de CSS y HTML que son componentes esenciales para el desarrollo web.
+   
+3. **Lógica de estado**:
 
-3. Logica de estado:
+   -Centralicé el estado de los productos en App.jsx con useState y useEffect. Esto permitió filtrar, ordenar y buscar productos desde un único punto de control.
 
-   Centralicé el estado de los productos en App.jsx con useState y useEffect. Esto permitió filtrar, ordenar y buscar productos desde un único punto de control.
+4. **Diseño responsive**:
 
-4. Diseño responsive:
+   -Incluí media queries en App.css, filterbar.css, footer.css e index.css para poder adaptar la interfaz a diferentes tamaños de pantalla.
 
-   Incluí media queries en App.css, filterbar.css, footer.css e index.css para poder adaptar la interfaz a diferentes tamaños de pantalla.
+5. **Manejo simple de errores**:
 
-5. Manejo simple de errores:
-
-   Implementé manejo de errores en App.jsx para asegurar que se informe al usuario en caso de fallos al cargar los productos.
+   -Implementé manejo de errores en App.jsx para asegurar que se informe al usuario en caso de fallos al cargar los productos.
 
 
+---
 
-Conclusion del proyecto:
+
+## Conclusión del Proyecto
 
 Para mi lo mas importante de este proyecto ha sido mejorar en una tecnologia en la cual soy principiante aprendiendo mediante la IA, W3Schools, etc. Tambien a aprender a seguir las intrucciones de lo que podria ser un proyecto final en la cual se detallan correctamente las funcionalidades principales a desarrollar a si como las posibles mejoras a introducir.
 
