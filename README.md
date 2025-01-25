@@ -1,7 +1,7 @@
 # IberPixel 
 
 
-ATENCION!! (Para una correcta visualizacion de la estructura y el codigo general, seleccionar junto a la parte superior izquierda donde aparecen los siguientes elementos [Preview | Code | Blame], el apartado Code)
+ATENCION!! (Para una correcta visualizacion de la estructura y del README.md, seleccionar junto a la parte superior izquierda donde aparecen los siguientes elementos [Preview | Code | Blame], el apartado Code)
 
 
 Paso 1:
@@ -79,6 +79,8 @@ El proyecto está organizado de la siguiente manera para mantener una clara sepa
    - filterbar.jsx: Controla los filtros para ordenar y buscar productos.
 
    - ProductList.jsx: Renderiza la lista de productos basada en los filtros y la categoría seleccionada.
+  
+   - footer.jsx: Creacion dek nuevo footer. Con los derechos de Copy Right.
 
    - carrito-de-compras.png: Recurso gráfico utilizado en la interfaz.
   
@@ -97,6 +99,8 @@ El proyecto está organizado de la siguiente manera para mantener una clara sepa
    - ProductList.css: Estilos específicos para la lista de productos.
   
    - sidebar.css: Estilos para el menú lateral.
+  
+   - footer.css: Estilos para el pequeño footer creado.
   
 4. src/
 
@@ -127,7 +131,7 @@ Posibles mejoras a largo plazo:
       d)Vista de cada producto individual que cuento con un boton para poder añadir al carrito.
       e)Puntuacion del producto.
       f)Un logo para la pagina web que al hacer click en el te devolviera a la pagina principal.
-      g)Un footer con contacto, informacion adicional y derechos de copyright. Aparte de más ideas.
+      g)Poner informacion adicional en el footer. Como elementos de contacto, sobre nosotros, etc. Aparte de más ideas.
       
    4. Tambien en cuanto a la parte visual de la pagina me gustaria poderle haber dedicado mas tiempo ya que es algo que a titulo personal me gusta mas. Y viendo como ha quedado, como atractivo al usuario deja algo que desear.
 
