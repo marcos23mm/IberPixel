@@ -137,6 +137,7 @@ El proyecto está organizado de la siguiente manera para mantener una clara sepa
 
 
 
+
 Posibles mejoras a largo plazo:
 
    Debido al poco tiempo tenido para desarrollar esta pequeña web y a que actualmente estoy en el proceso de aprender y obtener nuevos conocimientos sobre React, la aplicacion web no ha quedado como a mi me hubiera gustado. 
@@ -153,6 +154,8 @@ Posibles mejoras a largo plazo:
       g)Poner informacion adicional en el footer. Como elementos de contacto, sobre nosotros, etc. Aparte de más ideas.
       
    4. Tambien en cuanto a la parte visual de la pagina me gustaria poderle haber dedicado mas tiempo ya que es algo que a titulo personal me gusta mas. Y viendo como ha quedado, como atractivo al usuario deja algo que desear.
+
+
 
 
 
