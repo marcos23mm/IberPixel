@@ -1,8 +1,6 @@
 # IberPixel 
 
-Paso 1:
-
-Instrucciones de Instalacion
+#Paso 1: Instrucciones de Instalación
 
 1. Creamos una carpeta en Visual Studio llamada "Proyecto_IberPixel"
 2. Abrimos una terminal dentro de esa carpeta
