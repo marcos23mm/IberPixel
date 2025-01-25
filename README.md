@@ -27,55 +27,30 @@ Aqui un ejemplo de como tienen que quedar los archivos introducidos en nuetra ca
 Proyecto_IberPixel/
 
 ├── iberPixel_react/
-
 │   ├── node_modules/
-
 │   ├── public/
-
 │   ├── src/
-
 │   │   ├── componentes/
-
 │   │   │   ├── carrito-de-compras.png
-
 │   │   │   ├── filterbar.jsx
-
 │   │   │   ├── navbar.jsx
-
 │   │   │   ├── ProductList.jsx
-
 │   │   │   ├── sidebar.jsx
-
 │   │   ├── css/
-
 │   │   │   ├── App.css
-
 │   │   │   ├── filterbar.css
-
 │   │   │   ├── index.css
-
 │   │   │   ├── navbar.css
-
 │   │   │   ├── ProductList.css
-
 │   │   │   ├── sidebar.css
-
 │   │   ├── App.jsx
-
 │   │   ├── main.jsx
-
 │   ├── .gitignore
-
 │   ├── eslint.config.js
-
 │   ├── index.html
-
 │   ├── package-lock.json
-
 │   ├── package.json
-
 │   ├── README.md
-
 │   ├── vite.config.js
 
 Una vez realizado estos pasos y tengamos el codigo bien estructurado, abriremos la terminal y escribiremos: npm run dev 
