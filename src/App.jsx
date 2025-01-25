@@ -4,6 +4,7 @@ import Navbar from './componentes/navbar';
 import Sidebar from './componentes/sidebar';
 import FilterBar from './componentes/filterbar';
 import ProductList from './componentes/ProductList';
+import Footer from './componentes/footer';
 
 const App = () => {
   const [products, setProducts] = useState([]);
@@ -81,6 +82,7 @@ const App = () => {
           </main>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
