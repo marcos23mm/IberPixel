@@ -13,12 +13,16 @@
    - `cd iberPixel_react`
    - `npm install`
    - `npm run dev`
-7. Abre el enlace generado para visualizar la página web (Ctrl + Click en el enlace).
+7. Cuando ejecutes el proyecto, se generará un enlace. Accede a él mediante el comando (Ctrl + Click en el enlace) para visualizar la página web.
+
 
 ---
-Paso 2:
 
-Ahora pasaremos a introducir los archivos que hay en el GitHub a nuestro proyecto
+## Paso 2: Estructura del Proyecto
+
+Asegúrate de que los archivos se organicen de la siguiente forma.
+
+Ahora pasaremos a introducir los archivos que hay en el GitHub a nuestro proyecto.
 
 Aqui un ejemplo de como tienen que quedar los archivos introducidos en nuetra carpeta:
 
