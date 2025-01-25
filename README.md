@@ -1,9 +1,5 @@
 # IberPixel 
 
-
-ATENCION!! (Para una correcta visualizacion de la estructura y del README.md, seleccionar junto a la parte superior izquierda donde aparecen los siguientes elementos [Preview | Code | Blame], el apartado Code)
-
-
 Paso 1:
 
 Instrucciones de Instalacion
@@ -22,7 +18,6 @@ Ahora pasaremos a introducir los archivos que hay en el GitHub a nuestro proyect
 
 Aqui un ejemplo de como tienen que quedar los archivos introducidos en nuetra carpeta:
 
-(Si no puedes ver correctamente la estructura lee la primera linea)
 
 Proyecto_IberPixel/
 
@@ -81,9 +76,6 @@ Proyecto_IberPixel/
 
 Una vez realizado estos pasos y tengamos el codigo bien estructurado, abriremos la terminal y escribiremos: npm run dev 
 Esto nos dara un link al cual podremos acceder para visualizar la pagina web.
-
-
-
 
 
 
