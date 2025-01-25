@@ -25,31 +25,57 @@ Aqui un ejemplo de como tienen que quedar los archivos introducidos en nuetra ca
 (Si no puedes ver correctamente la estructura lee la primera linea)
 
 Proyecto_IberPixel/
+
 ├── iberPixel_react/
+
 │   ├── node_modules/
+
 │   ├── public/
+
 │   ├── src/
+
 │   │   ├── componentes/
+
 │   │   │   ├── carrito-de-compras.png
+
 │   │   │   ├── filterbar.jsx
+
 │   │   │   ├── navbar.jsx
+
 │   │   │   ├── ProductList.jsx
+
 │   │   │   ├── sidebar.jsx
+
 │   │   ├── css/
+
 │   │   │   ├── App.css
+
 │   │   │   ├── filterbar.css
+
 │   │   │   ├── index.css
+
 │   │   │   ├── navbar.css
+
 │   │   │   ├── ProductList.css
+
 │   │   │   ├── sidebar.css
+
 │   │   ├── App.jsx
+
 │   │   ├── main.jsx
+
 │   ├── .gitignore
+
 │   ├── eslint.config.js
+
 │   ├── index.html
+
 │   ├── package-lock.json
+
 │   ├── package.json
+
 │   ├── README.md
+
 │   ├── vite.config.js
 
 Una vez realizado estos pasos y tengamos el codigo bien estructurado, abriremos la terminal y escribiremos: npm run dev 
@@ -135,6 +161,43 @@ Posibles mejoras a largo plazo:
       
    4. Tambien en cuanto a la parte visual de la pagina me gustaria poderle haber dedicado mas tiempo ya que es algo que a titulo personal me gusta mas. Y viendo como ha quedado, como atractivo al usuario deja algo que desear.
 
+
+
 Decisiones tecnicas: 
+
+
+En cuanto a las decisiones tecnicas, podemos empezar por:
+
+1. Estructura del proyecto:
+
+   Decidí agrupar los componentes reutilizables en una carpeta componentes y sus estilos en css para mantener       una separación clara entre lógica y presentación.
+
+2. Eleccion de la Tecnologia:
+
+   En mi caso decidi utilizar React-Vite debido a que hace muy poco comenze a utilizarlo y era una tecnologia muy llamativa debido al uso de JavaScript, tecnologia en la cual me gustaria especializarme. Aparte de CSS y HTML que son componentes esenciales para el desarrollo web. 
+
+3. Logica de estado:
+
+   Centralicé el estado de los productos en App.jsx con useState y useEffect. Esto permitió filtrar, ordenar y buscar productos desde un único punto de control.
+
+4. Diseño responsive:
+
+   Incluí media queries en App.css, filterbar.css, footer.css e index.css para poder adaptar la interfaz a diferentes tamaños de pantalla.
+
+5. Manejo simple de errores:
+
+   Implementé manejo de errores en App.jsx para asegurar que se informe al usuario en caso de fallos al cargar los productos.
+
+
+
+Conclusion del proyecto:
+
+Para mi lo mas importante de este proyecto ha sido mejorar en una tecnologia en la cual soy principiante aprendiendo mediante la IA, W3Schools, etc. Tambien a aprender a seguir las intrucciones de lo que podria ser un proyecto final en la cual se detallan correctamente las funcionalidades principales a desarrollar a si como las posibles mejoras a introducir.
+
+
+
+
+
+
 
    
