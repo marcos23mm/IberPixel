@@ -177,7 +177,7 @@ En cuanto a las decisiones tecnicas, podemos empezar por:
 
 ## Conclusión del Proyecto
 
-Para mi lo mas importante de este proyecto ha sido mejorar en una tecnologia en la cual soy principiante aprendiendo mediante la IA, W3Schools, etc. Tambien a aprender a seguir las intrucciones de lo que podria ser un proyecto final en la cual se detallan correctamente las funcionalidades principales a desarrollar a si como las posibles mejoras a introducir.
+Aunque he podido lograr los requisitos básicos, hay mucho margen para mejorar en funcionalidad y diseño. Lo mejor del proyecto ha sido aprender a estructurar un proyecto real, gestionar estados globales y aplicar diseño responsive. Con más tiempo, habría implementado funcionalidades adicionales como un carrito de compras funcional y un diseño más refinado. Este proceso ha sido una gran oportunidad para aplicar lo aprendido y mejorar en una tecnologia en la que llevo poco tiempo.
 
 
 
