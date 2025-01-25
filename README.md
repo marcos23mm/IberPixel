@@ -82,8 +82,7 @@ Proyecto_IberPixel/
 │   ├── vite.config.js
 
 
-Una vez realizado estos pasos y tengamos el codigo bien estructurado, abriremos la terminal y escribiremos: npm run dev 
-Esto nos dara un link al cual podremos acceder para visualizar la pagina web.
+Ejecuta nuevamente `npm run dev` (si nno lo has hecho antes) para generar el enlace de acceso a la página.
 
 
 
