@@ -2,18 +2,19 @@
 
 ## Paso 1: Instrucciones de Instalación
 
-1. Crea una carpeta en Visual Studio llamada **"Proyecto_IberPixel"**.
-2. Abre una terminal dentro de esa carpeta.
-3. Ejecuta el siguiente comando: `npm create vite@latest`.
-4. Introduce el nombre del proyecto: **"iberPixel_react"**.
-5. Selecciona:
+1. Lo primero que tenemos que hacer es descargar node.js (https://nodejs.org/es).
+2. Creamos una carpeta en Visual Studio llamada **"Proyecto_IberPixel"**.
+3. Abre una terminal dentro de esa carpeta.
+4. Ejecuta el siguiente comando: `npm create vite@latest`.
+5. Introduce el nombre del proyecto: **"iberPixel_react"**.
+6. Selecciona:
    - Framework: **React**
    - Lenguaje: **JavaScript**
-6. Sigue los pasos:
+7. Sigue los pasos:
    - `cd iberPixel_react`
    - `npm install`
    - `npm run dev`
-7. Cuando ejecutes el proyecto, se generará un enlace. Accede a él mediante el comando (Ctrl + Click en el enlace) para visualizar la página web.
+8. Cuando ejecutes el proyecto, se generará un enlace. Accede a él mediante el comando (Ctrl + Click en el enlace) para visualizar la página web.
 
 
 ---
