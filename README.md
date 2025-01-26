@@ -89,7 +89,7 @@ Ejecuta nuevamente `npm run dev` (si nno lo has hecho antes) para generar el enl
 
 ## Explicación de la Estructura del Proyecto
 
-El proyecto está diseñado para mantener una clara separación de responsabilidades y facilitar su mantenimiento:
+El proyecto está diseñado para mantener una clara separación de elementos y facilitar su mantenimiento:
 
 ### 1. **Carpeta `src`**
 Contiene el código fuente principal de la aplicación.
