@@ -32,7 +32,7 @@
 }
 
 
-/* Estilos generales para diseño responsive */
+/* estilos generales para diseño responsive */
 @media (max-width: 768px) {
     .filter-bar {
         flex-direction: column;
