@@ -1,4 +1,4 @@
-# IberPixel 
+# IberPixel Frontend
 
 ## Paso 1: Instrucciones de Instalación
 
